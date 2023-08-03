@@ -8,14 +8,14 @@ const useRouter = require("./routes/router");
 const cors=require('cors')
 
 const app = express();
-app.use(cors({ credentials: true ,origin:'https://frontend-flipkart-3rca-iwwtlp49t-estheronyando.vercel.app'}))
+app.use(cors({ credentials: true ,origin:'https://frontend-flipkart-3rca.vercel.app'}))
 //app uses
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 // Allow requests from 'http://localhost:3003'
 app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', 'https://frontend-flipkart-3rca-iwwtlp49t-estheronyando.vercel.app');
+    res.header('Access-Control-Allow-Origin', 'https://frontend-flipkart-3rca.vercel.app');
     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
     res.header('Access-Control-Allow-Credentials', 'true'); 
     
