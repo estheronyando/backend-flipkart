@@ -12,7 +12,6 @@ const signup = async (req, res) => {
       maxAge: 2629800000,
       httpOnly: true,
       secure: true,
-      domain:".vercel.app",
       sameSite: 'None'
      
     });
