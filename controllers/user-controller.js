@@ -13,7 +13,7 @@ const signup = async (req, res) => {
       httpOnly: true,
       secure: true,
       domain:".vercel.app",
-      sameSite: 'none'
+      sameSite: 'None'
      
     });
     res.status(201).json({ code: 201, isComplete: true });
