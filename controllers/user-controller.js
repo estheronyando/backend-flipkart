@@ -12,7 +12,7 @@ const signup = async (req, res) => {
       maxAge: 2629800000,
       httpOnly: true,
       secure: true,
-      sameSite: 'None'
+      sameSite: 'None',
      
     });
     res.status(201).json({ code: 201, isComplete: true });
