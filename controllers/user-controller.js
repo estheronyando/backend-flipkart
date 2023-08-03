@@ -10,9 +10,8 @@ const signup = async (req, res) => {
     await user.save();
     res.cookie("auth_token", token, {
       maxAge: 2629800000,
-      domain:".app.localhost",
-      //httpOnly: false,
-      //secure: false,
+      httpOnly: true,
+      secure: true,
       //sameSite: 'none'
      
     });
