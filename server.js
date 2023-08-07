@@ -9,14 +9,14 @@ const cors=require('cors')
 
 const app = express();
 //app.use(cors({ credentials: true ,origin:'https://frontend-flipkart-3rca-9mz6dovjo-estheronyando.vercel.app'}))
-app.use(cors({ credentials: true ,origin:'https://frontend-flipkart-3rca-9mz6dovjo-estheronyando.vercel.app'}))
+app.use(cors({ credentials: true ,origin:'https://jumia-4taoegr26-estheronyando.vercel.app'}))
 //app uses
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 // Allow requests from 'http://localhost:3003'
 app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', 'https://frontend-flipkart-3rca-9mz6dovjo-estheronyando.vercel.app');
+    res.header('Access-Control-Allow-Origin', 'https://jumia-4taoegr26-estheronyando.vercel.app');
     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
     res.header('Access-Control-Allow-Credentials', 'true'); 
     
