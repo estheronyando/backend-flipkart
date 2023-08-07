@@ -121,6 +121,8 @@ const loginWithMobileNumber = async (req, res) => {
     res.cookie("auth_token", token, {
       maxAge: 2629800000,
       httpOnly: true,
+      secure: true,
+      sameSite: 'None'
     });
     res.json({ isLogin: true, message: "User Login Successfully" });
   } catch (error) {
