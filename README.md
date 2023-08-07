@@ -1,7 +1,7 @@
 
 # Flipkart Clone MERN APP
 
-[Esther Onyando's](https://github.com/estheronyando/) A remarkable Flipkart backend service has been developed, tailored to meet the needs of aspiring entrepreneurs and startups similar to Flipkart. This exceptional platform boasts a robust authentication system, ensuring security with SMS OTP verification. Additionally, it seamlessly integrates with Paytm, allowing convenient transactions from various locations.
+[Esther Onyando's](https://github.com/estheronyando/) A remarkable Jumia backend service has been developed, tailored to meet the needs of aspiring entrepreneurs and startups similar to Jumia. This exceptional platform boasts a robust authentication system, ensuring security with SMS OTP verification. 
     
 
 ## Features
@@ -21,7 +21,7 @@
 
 ## 🚀 LIVE APP
 
-https://frontend-flipkart-3rca.vercel.app/
+https://jumia-4taoegr26-estheronyando.vercel.app/
 
 
 ##  🖥️ Tech Stack
@@ -33,7 +33,9 @@ https://frontend-flipkart-3rca.vercel.app/
 
 ## Sneak Peek of Site
 
-![App Screenshot 1](https://images2.imgbox.com/42/99/Gb9xX67F_o.png)
+![App Screenshot 1](https://i.postimg.cc/NM2vgnwK/Jumia.png)
+![App Screenshot 1](https://i.postimg.cc/258BXQNc/Jumiapg2.png)
+![App Screenshot 1](https://i.postimg.cc/VkHYmnbH/Jumia-pg3.png)
 
 
 
