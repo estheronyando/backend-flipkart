@@ -21,7 +21,7 @@
 
 ## 🚀 LIVE APP
 
-https://jumia-4taoegr26-estheronyando.vercel.app/
+https://jumia-eta.vercel.app/
 
 
 ##  🖥️ Tech Stack
